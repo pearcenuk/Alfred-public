@@ -14,12 +14,12 @@ update your vault name in the environment variable **vaultname**
 
 Commands
 --------
-- **olog <text>** - Brings Obsidian to the front and appends current time and starts a new line with the typed in text.
+- **olog \<text\>** - Brings Obsidian to the front and appends current time and starts a new line with the typed in text.
 
 - **clog** - Brings Obsidian to the front and appends current time and starts a new line with contents of the latest clipboard entry
 
-- hotkey: **<hyper>+o** - Brings Obsidian to the front and appends current time and starts a new line with currently selected text
+- hotkey: **\<hyper\>+o** - Brings Obsidian to the front and appends current time and starts a new line with currently selected text
 
-- **os <text>** - Bring Obsidian to the front and search the text.
+- **os \<text\>** - Bring Obsidian to the front and search the text.
 
 - **odn** or **hotkey** of your choice - Brings Obsidian to the front and opens Daily Note
