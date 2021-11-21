@@ -1,16 +1,25 @@
-# Olog
+# OLog
 
-Olog logs data to your Obsidian daily note in the following ways.
+Allows you to log data to the Daily Note in 3 different ways.  
+Opens the daily note from anywhere
+Searches Obsidian
 
-_Keywords:_
-- **olog \<text\>** - This appends \<text\> to the end of your Daily Note
-- **clog** - This appends the latest clipboard entry to the end of your Daily Note
+Requirements
+------------
+Ensure you have Obsidian Community Plugin Advanced URI enabled.
 
-_Hotkeys:_
-- **Hyperkey(ctrl+alt+shift+cmd)+o** - appends the currently selected text to the end of your Daily Note
+Environment Variables
+---------------------
+update your vault name in the environment variable **vaultname**
 
-Workflow Configuration
-Set **vaultname** environment variable to the name of your Obsidian vault.
+Commands
+--------
+- **olog <text>** - Brings Obsidian to the front and appends current time and starts a new line with the typed in text.
 
-In Obsidian
-Install **Obsidian Advanced URI** from Community Plugins
+- **clog** - Brings Obsidian to the front and appends current time and starts a new line with contents of the latest clipboard entry
+
+- hotkey: **<hyper>+o** - Brings Obsidian to the front and appends current time and starts a new line with currently selected text
+
+- **os <text>** - Bring Obsidian to the front and search the text.
+
+- **odn** or **hotkey** of your choice - Brings Obsidian to the front and opens Daily Note
