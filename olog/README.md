@@ -12,6 +12,10 @@ Environment Variables
 ---------------------
 update your vault name in the environment variable **vaultname**
 
+Customisations
+--------------
+The top Clipboard paste block is how the data and its formatting gets into the Daily Note. Feel free to update it as to how you'd like the data to look.
+
 Commands
 --------
 - **olog \<text\>** - Brings Obsidian to the front, appends current time and starts a new line with the typed text.
