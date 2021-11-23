@@ -1,4 +1,4 @@
-# OLog
+# OLog - Alfred to Obsidian Daily Note logger
 
 Allows you to log data to the Daily Note in 3 different ways.  
 Opens the daily note from anywhere
