@@ -27,3 +27,5 @@ Commands
 - **os \<text\>** - Bring Obsidian to the front and searches with the typed text.
 
 - **odn** or **hotkey** of your choice - Brings Obsidian to the front and opens Daily Note
+
+![2021-11-23 at 18 24](https://user-images.githubusercontent.com/42906268/143007762-03b2f6d5-0601-453f-bd56-0b02c81f1c5d.png)
