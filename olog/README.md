@@ -36,4 +36,8 @@ Commands
 
 - **odn** or **hotkey** of your choice - Brings Obsidian to the front and opens Daily Note
 
-![2021-11-23 at 18 24](https://user-images.githubusercontent.com/42906268/143007762-03b2f6d5-0601-453f-bd56-0b02c81f1c5d.png)
+![2021-11-25 at 10 43 pm](https://user-images.githubusercontent.com/42906268/143461487-8d122738-d66d-4d80-a5b8-dfc28918cb25.png)
+
+![2021-11-25 at 10 43 pm](https://user-images.githubusercontent.com/42906268/143461533-bca88ce4-ad01-4aef-b7f0-fcd437bb0169.png)
+
+
