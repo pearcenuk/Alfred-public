@@ -14,15 +14,23 @@ update your vault name in the environment variable **vaultname**
 
 Customisations
 --------------
-The top Clipboard paste block is how the data and its formatting gets into the Daily Note. Feel free to update it as to how you'd like the data to look.
+The Clipboard paste blocks are how the data and its formatting gets into the Daily Note. Feel free to update them as to how you'd like the data to look.
+Top one is the one to add the time
+Bottom one is one without the time
 
 Commands
 --------
-- **olog \<text\>** - Brings Obsidian to the front, appends current time and starts a new line with the typed text.
+- **olog \<text\>** -  Brings Obsidian to the front and appends and starts a new line with the typed in text.
 
-- **clog** - Brings Obsidian to the front, appends current time and starts a new line with contents of the latest clipboard entry
+- **olog \<text\> + CMD modifier** -  Brings Obsidian to the front and appends current time and starts a new line with the typed in text.
 
-- hotkey: **\<hyper\>+o** - Brings Obsidian to the front, appends current time and starts a new line with currently selected text
+- **clog** - Brings Obsidian to the front and appends and starts a new line with contents of the latest clipboard entry
+
+- **clog + CMD modifier** - Brings Obsidian to the front and appends current time and starts a new line with contents of the latest clipboard entry
+
+- hotkey: **\<hyper\>+o** - Brings Obsidian to the front and appends and starts a new line with currently selected text
+
+- hotkey: **\<ctrl+alt+cmd\>+o** - Brings Obsidian to the front and appends current time and starts a new line with currently selected text
 
 - **os \<text\>** - Bring Obsidian to the front and searches with the typed text.
 
