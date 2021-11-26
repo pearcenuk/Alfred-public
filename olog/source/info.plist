@@ -289,8 +289,8 @@
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist='https://raw.githubusercontent.com/pearcenuk/Alfred-public/blob/main/olog/source/info.plist'
-readonly workflow_url='https://raw.githubusercontent.com/pearcenuk/Alfred-public/blob/main/olog/olog.alfredworkflow'
+readonly remote_info_plist='https://raw.githubusercontent.com/pearcenuk/Alfred-public/main/olog/source/info.plist'
+readonly workflow_url='https://raw.githubusercontent.com/pearcenuk/Alfred-public/main/olog/olog.alfredworkflow'
 readonly download_type='direct'
 readonly frequency_check='0'
 
@@ -665,8 +665,8 @@ fi</string>
 				<string></string>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist='https://raw.githubusercontent.com/pearcenuk/Alfred-public/blob/main/olog/source/info.plist'
-readonly workflow_url='https://raw.githubusercontent.com/pearcenuk/Alfred-public/blob/main/olog/olog.alfredworkflow'
+readonly remote_info_plist='https://raw.githubusercontent.com/pearcenuk/Alfred-public/main/olog/source/info.plist'
+readonly workflow_url='https://raw.githubusercontent.com/pearcenuk/Alfred-public/main/olog/olog.alfredworkflow'
 readonly download_type='direct'
 readonly frequency_check='0'
 
