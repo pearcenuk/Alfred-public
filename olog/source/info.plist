@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>oblog</string>
+	<string>me.npearce.oblog</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
@@ -64,7 +64,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2D329F93-E64D-4269-BA8D-A976D5FF8B22</string>
+				<string>693AD460-73D0-4904-905E-9E01AADC8769</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -74,7 +74,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>693AD460-73D0-4904-905E-9E01AADC8769</string>
+				<string>2D329F93-E64D-4269-BA8D-A976D5FF8B22</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -110,6 +110,16 @@
 		</array>
 		<key>56E61A4D-BA0F-41DA-B368-C7459CC2B154</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2D329F93-E64D-4269-BA8D-A976D5FF8B22</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>04795E8A-E255-4781-8BDA-D8946C07CD08</string>
@@ -283,6 +293,49 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>datatoobsidian</key>
+					<string>{query}</string>
+					<key>timeyn</key>
+					<string>n</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>693AD460-73D0-4904-905E-9E01AADC8769</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>olog</string>
+				<key>subtext</key>
+				<string>olog &lt;words go here&gt;</string>
+				<key>text</key>
+				<string>Log to Obsidian daily note</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>433EE9F8-D508-4E8F-A119-7501B12037C2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -292,7 +345,7 @@
 readonly remote_info_plist='https://raw.githubusercontent.com/pearcenuk/Alfred-public/main/olog/source/info.plist'
 readonly workflow_url='https://raw.githubusercontent.com/pearcenuk/Alfred-public/main/olog/olog.alfredworkflow'
 readonly download_type='direct'
-readonly frequency_check='0'
+readonly frequency_check='4'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {
@@ -370,49 +423,6 @@ fi</string>
 			<string>2D329F93-E64D-4269-BA8D-A976D5FF8B22</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>datatoobsidian</key>
-					<string>{query}</string>
-					<key>timeyn</key>
-					<string>n</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>693AD460-73D0-4904-905E-9E01AADC8769</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>olog</string>
-				<key>subtext</key>
-				<string>olog &lt;words go here&gt;</string>
-				<key>text</key>
-				<string>Log to Obsidian daily note</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>433EE9F8-D508-4E8F-A119-7501B12037C2</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -668,7 +678,7 @@ fi</string>
 readonly remote_info_plist='https://raw.githubusercontent.com/pearcenuk/Alfred-public/main/olog/source/info.plist'
 readonly workflow_url='https://raw.githubusercontent.com/pearcenuk/Alfred-public/main/olog/olog.alfredworkflow'
 readonly download_type='direct'
-readonly frequency_check='0'
+readonly frequency_check='4'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {
@@ -983,9 +993,9 @@ CUSTOMISE THIS TO YOUR HEART'S CONTENT</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>585</integer>
+			<integer>225</integer>
 			<key>ypos</key>
-			<integer>115</integer>
+			<integer>295</integer>
 		</dict>
 		<key>3174A7B9-7A5E-494D-A61C-052BEA8FF8C3</key>
 		<dict>
@@ -1097,9 +1107,9 @@ Set flag to print time in note to NO</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>585</integer>
+			<integer>380</integer>
 			<key>ypos</key>
-			<integer>760</integer>
+			<integer>850</integer>
 		</dict>
 		<key>BCA369E5-326D-4D5E-8B73-490B7D985114</key>
 		<dict>
@@ -1184,7 +1194,7 @@ os &lt;text&gt;</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.5.2</string>
+	<string>1.5.3</string>
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
