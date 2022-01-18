@@ -1194,7 +1194,11 @@ os &lt;text&gt;</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
+<<<<<<< HEAD
 	<string>1.5.3</string>
+=======
+	<string>1.5.4</string>
+>>>>>>> e281f52 (V1.5.4 with the new README.md)
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
