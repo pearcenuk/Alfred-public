@@ -1,4 +1,4 @@
-#olog
+# olog
 
 Allows you to log to the end of the current days daily note in obsidian
 
