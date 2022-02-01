@@ -108,6 +108,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>56E61A4D-BA0F-41DA-B368-C7459CC2B154</key>
 		<array>
 			<dict>
@@ -240,6 +253,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>E9C76964-C227-46DD-8B60-1FFC5ECDB9B8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FDBA3604-D210-4322-B891-C40BB7DCF048</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>42DC769B-3CE2-47C1-BED5-7F478850E194</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -606,6 +632,37 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>2</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>8</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>C</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -809,6 +866,37 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>2</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>8</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>C</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>FDBA3604-D210-4322-B891-C40BB7DCF048</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -1004,7 +1092,7 @@ CUSTOMISE THIS TO YOUR HEART'S CONTENT</string>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>730</integer>
+			<integer>865</integer>
 		</dict>
 		<key>42DC769B-3CE2-47C1-BED5-7F478850E194</key>
 		<dict>
@@ -1014,7 +1102,7 @@ Set flag to print time in note to YES</string>
 			<key>xpos</key>
 			<integer>245</integer>
 			<key>ypos</key>
-			<integer>920</integer>
+			<integer>1055</integer>
 		</dict>
 		<key>433EE9F8-D508-4E8F-A119-7501B12037C2</key>
 		<dict>
@@ -1037,6 +1125,15 @@ If flag timeyn set to n then just print the data</string>
 			<key>ypos</key>
 			<integer>455</integer>
 		</dict>
+		<key>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>65</integer>
+			<key>ypos</key>
+			<integer>735</integer>
+		</dict>
 		<key>56E61A4D-BA0F-41DA-B368-C7459CC2B154</key>
 		<dict>
 			<key>note</key>
@@ -1056,7 +1153,7 @@ eg: otlog words go here</string>
 			<key>xpos</key>
 			<integer>380</integer>
 			<key>ypos</key>
-			<integer>1265</integer>
+			<integer>1500</integer>
 		</dict>
 		<key>693AD460-73D0-4904-905E-9E01AADC8769</key>
 		<dict>
@@ -1088,7 +1185,7 @@ Set flag to print time in note to NO</string>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>1415</integer>
+			<integer>1650</integer>
 		</dict>
 		<key>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</key>
 		<dict>
@@ -1098,7 +1195,7 @@ Set flag to print time in note to NO</string>
 			<key>xpos</key>
 			<integer>245</integer>
 			<key>ypos</key>
-			<integer>760</integer>
+			<integer>895</integer>
 		</dict>
 		<key>AFA2921C-E9C2-4D77-BD44-C058E7B97AA2</key>
 		<dict>
@@ -1109,7 +1206,7 @@ Set flag to print time in note to NO</string>
 			<key>xpos</key>
 			<integer>380</integer>
 			<key>ypos</key>
-			<integer>850</integer>
+			<integer>985</integer>
 		</dict>
 		<key>BCA369E5-326D-4D5E-8B73-490B7D985114</key>
 		<dict>
@@ -1132,7 +1229,7 @@ With time</string>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>890</integer>
+			<integer>1025</integer>
 		</dict>
 		<key>E18D13C2-FB7D-4757-9E0D-7111D0C03C7B</key>
 		<dict>
@@ -1141,7 +1238,7 @@ With time</string>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>1265</integer>
+			<integer>1500</integer>
 		</dict>
 		<key>E9C76964-C227-46DD-8B60-1FFC5ECDB9B8</key>
 		<dict>
@@ -1152,7 +1249,7 @@ With time</string>
 			<key>xpos</key>
 			<integer>380</integer>
 			<key>ypos</key>
-			<integer>1100</integer>
+			<integer>1335</integer>
 		</dict>
 		<key>E9E9008B-952B-4026-8118-E7219CBB341C</key>
 		<dict>
@@ -1183,7 +1280,16 @@ os &lt;text&gt;</string>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>1100</integer>
+			<integer>1335</integer>
+		</dict>
+		<key>FDBA3604-D210-4322-B891-C40BB7DCF048</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>65</integer>
+			<key>ypos</key>
+			<integer>1185</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -1194,11 +1300,7 @@ os &lt;text&gt;</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-<<<<<<< HEAD
-	<string>1.5.3</string>
-=======
-	<string>1.5.4</string>
->>>>>>> e281f52 (V1.5.4 with the new README.md)
+	<string>1.5.5</string>
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
