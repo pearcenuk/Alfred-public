@@ -10,6 +10,14 @@ Ensure you have Obsidian Community Plugin Advanced URI enabled.
 ---------------------**  
 update your vault name in the environment variable vaultname
 
+**Hot Keys
+--------**
+Customise to your hearts content.
+
+**Universal Actions
+-----------------**
+Now with copy selection to daily note with or without time universal actions
+
 **Customisations  
 ---------------**  
 The blue Clipboard paste block is how the data and its formatting gets into the Daily Note. Feel free to update it as to how you'd like the data to look.
@@ -28,6 +36,9 @@ The blue Clipboard paste block is how the data and its formatting gets into the 
 
 **hotkey**: <ctrl+alt+cmd>+o - Brings Obsidian to the front and appends current time and starts a new line with currently selected text
 
+**hotkey**: <hyper>+c - Brings Obsidian to the front and appends and starts a new line with current clipboard contents
+
+**hotkey**: <ctrl+alt+cmd>+c - Brings Obsidian to the front and appends current time and starts a new line with current clipboard contents
 
 **os** <text> - Bring Obsidian to the front and search the text.
 
