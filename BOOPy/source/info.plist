@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>me.npearce.boop</string>
+	<string>me.npearce.boopy</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
@@ -356,6 +356,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>acceptsfiles</key>
+				<false/>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>acceptstext</key>
+				<true/>
+				<key>acceptsurls</key>
+				<false/>
+				<key>name</key>
+				<string>BOOP</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.universalaction</string>
+			<key>uid</key>
+			<string>9211A1AB-DDD0-41F0-A6FC-8725E06DB6B8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>autopaste</key>
 				<true/>
 				<key>clipboardtext</key>
@@ -396,34 +417,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>acceptsfiles</key>
-				<false/>
-				<key>acceptsmulti</key>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>↩</string>
+				<key>keycode</key>
+				<integer>36</integer>
+				<key>keymod</key>
 				<integer>0</integer>
-				<key>acceptstext</key>
-				<true/>
-				<key>acceptsurls</key>
+				<key>overridewithargument</key>
 				<false/>
-				<key>name</key>
-				<string>BOOP</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.universalaction</string>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
 			<key>uid</key>
-			<string>9211A1AB-DDD0-41F0-A6FC-8725E06DB6B8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>seconds</key>
-				<string>1</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
-			<key>uid</key>
-			<string>9DD94E7E-D2FB-4FB9-92E2-A94DBD9678C3</string>
+			<string>85937AF8-3C5D-4EB5-BE0E-6D509B77EE12</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -444,6 +452,19 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>553E77C0-5D96-463A-BB23-1559E8B5DDA3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>1</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>9DD94E7E-D2FB-4FB9-92E2-A94DBD9678C3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -486,27 +507,6 @@
 			<string>alfred.workflow.output.dispatchkeycombo</string>
 			<key>uid</key>
 			<string>0CB1AAD6-DE5B-4C25-8520-B06C13DA8F12</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>↩</string>
-				<key>keycode</key>
-				<integer>36</integer>
-				<key>keymod</key>
-				<integer>0</integer>
-				<key>overridewithargument</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
-			<key>uid</key>
-			<string>85937AF8-3C5D-4EB5-BE0E-6D509B77EE12</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -603,23 +603,31 @@ fi</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Run your favourite BOOP (https://github.com/IvanMathy/Boop) scripts from Alfred.
+
+The list is configurable by you in the List Filter so it does not currently have all BOOP scripts just a few to test with.
+
+It isn't very elegant, but it works for me.
+
+Have fun</string>
 	<key>uidata</key>
 	<dict>
 		<key>0CB1AAD6-DE5B-4C25-8520-B06C13DA8F12</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
+			<key>note</key>
+			<string>Select all</string>
 			<key>xpos</key>
-			<integer>550</integer>
+			<integer>375</integer>
 			<key>ypos</key>
-			<integer>565</integer>
+			<integer>615</integer>
 		</dict>
 		<key>0EE1D0A7-C069-4D9F-9675-7D121076901A</key>
 		<dict>
 			<key>note</key>
-			<string>Save input to datatoobsidian variable
-Set flag to print time in note to NO</string>
+			<string>Save clipboard to text (maybe removed soon)
+Save command from List Filter to command to run in BOOP</string>
 			<key>xpos</key>
 			<integer>265</integer>
 			<key>ypos</key>
@@ -629,6 +637,8 @@ Set flag to print time in note to NO</string>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
+			<key>note</key>
+			<string>ADD YOUR FAVE BOOP SCRIPTS HERE</string>
 			<key>xpos</key>
 			<integer>90</integer>
 			<key>ypos</key>
@@ -638,10 +648,12 @@ Set flag to print time in note to NO</string>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
+			<key>note</key>
+			<string>short delay to make sure BOOP is ready</string>
 			<key>xpos</key>
-			<integer>720</integer>
+			<integer>710</integer>
 			<key>ypos</key>
-			<integer>245</integer>
+			<integer>255</integer>
 		</dict>
 		<key>2B19DE82-C21B-4EC8-ACB5-4A15E4BFC6D7</key>
 		<dict>
@@ -652,7 +664,7 @@ Set flag to print time in note to NO</string>
 			<key>xpos</key>
 			<integer>375</integer>
 			<key>ypos</key>
-			<integer>710</integer>
+			<integer>790</integer>
 		</dict>
 		<key>553E77C0-5D96-463A-BB23-1559E8B5DDA3</key>
 		<dict>
@@ -665,6 +677,8 @@ Set flag to print time in note to NO</string>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
+			<key>note</key>
+			<string>Clear Boop</string>
 			<key>xpos</key>
 			<integer>550</integer>
 			<key>ypos</key>
@@ -674,22 +688,28 @@ Set flag to print time in note to NO</string>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
+			<key>note</key>
+			<string>Copy text to work on into BOOP</string>
 			<key>xpos</key>
 			<integer>550</integer>
 			<key>ypos</key>
-			<integer>215</integer>
+			<integer>225</integer>
 		</dict>
 		<key>85937AF8-3C5D-4EB5-BE0E-6D509B77EE12</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
+			<key>note</key>
+			<string>Run the palette command</string>
 			<key>xpos</key>
-			<integer>375</integer>
+			<integer>815</integer>
 			<key>ypos</key>
-			<integer>565</integer>
+			<integer>415</integer>
 		</dict>
 		<key>8C697305-BB60-4A6D-9081-8663251C2A6C</key>
 		<dict>
+			<key>note</key>
+			<string>Launch BOOP and bring to front</string>
 			<key>xpos</key>
 			<integer>375</integer>
 			<key>ypos</key>
@@ -700,7 +720,7 @@ Set flag to print time in note to NO</string>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>80</integer>
+			<integer>90</integer>
 			<key>ypos</key>
 			<integer>405</integer>
 		</dict>
@@ -708,44 +728,54 @@ Set flag to print time in note to NO</string>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
+			<key>note</key>
+			<string>short delay to make sure BOOP is ready</string>
 			<key>xpos</key>
-			<integer>720</integer>
+			<integer>710</integer>
 			<key>ypos</key>
-			<integer>425</integer>
+			<integer>445</integer>
 		</dict>
 		<key>B89FEFD4-5D43-48A0-8A0E-0358E91142AF</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>7</integer>
+			<key>note</key>
+			<string>Run the command from list filer</string>
 			<key>xpos</key>
 			<integer>550</integer>
 			<key>ypos</key>
-			<integer>395</integer>
+			<integer>415</integer>
 		</dict>
 		<key>BFAB59E8-7E31-4F51-BB20-5B44858790F2</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
+			<key>note</key>
+			<string>Copy to Clipboard</string>
 			<key>xpos</key>
-			<integer>720</integer>
+			<integer>550</integer>
 			<key>ypos</key>
-			<integer>565</integer>
+			<integer>615</integer>
 		</dict>
 		<key>CF81AEF0-83C9-4E10-A7DE-BAE28D240242</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>9</integer>
+			<key>note</key>
+			<string>Call up palette in BOOP</string>
 			<key>xpos</key>
 			<integer>375</integer>
 			<key>ypos</key>
-			<integer>395</integer>
+			<integer>415</integer>
 		</dict>
 		<key>EA36E24B-E1EB-4562-B832-B8C47D4A9268</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
+			<key>note</key>
+			<string>short delay to make sure BOOP is ready</string>
 			<key>xpos</key>
-			<integer>720</integer>
+			<integer>710</integer>
 			<key>ypos</key>
 			<integer>95</integer>
 		</dict>
@@ -753,7 +783,7 @@ Set flag to print time in note to NO</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
