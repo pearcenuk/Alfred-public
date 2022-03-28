@@ -6,24 +6,25 @@ Allows you to log to the end of the current days daily note in obsidian
 **------------**  
 Ensure you have Obsidian Community Plugin Advanced URI enabled.  
 
-**Environment Variables  
----------------------**  
-update your vault name in the environment variable vaultname
+**Environment Variables**  
+**---------------------**  
+update your vault name in the environment variable vaultname. 
+![2022-03-29 at 07 11](https://user-images.githubusercontent.com/42906268/160502371-14a72715-2cc2-43b2-8be2-03536bcf4d2e.png)
 
-**Hot Keys
---------**
+**Hot Keys**  
+**--------**  
 Customise to your hearts content.
 
-**Universal Actions
+**Universal Actions  
 -----------------**
 Now with copy selection to daily note with or without time universal actions
 
-**Customisations  
----------------**  
+**Customisations**  
+**---------------**  
 The blue Clipboard paste block is how the data and its formatting gets into the Daily Note. Feel free to update it as to how you'd like the data to look.
 
-**Commands  
---------**  
+**Commands**  
+**--------**  
 **otlog** <text> -  Brings Obsidian to the front and appends current time and starts a new line with the typed in text.
 
 **olog** <text> -  Brings Obsidian to the front and appends and starts a new line with the typed in text.
