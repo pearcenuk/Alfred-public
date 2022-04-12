@@ -35,8 +35,9 @@ nctlog <hyper>+c - Appends clipboard text to Daily Note with the time.
 
 nclog <ctrl+alt+cmd>+c - Appends clipboard text to current Daily Note.
 
-
-
 os <text> - Bring Apple Notes to the front and search the text.
-
+  
 odn Brings Apple Notes to the front and opens Daily Note or creates it if it doesn't exist.
+
+![2022-04-12 at 21 59](https://user-images.githubusercontent.com/42906268/162979487-8bd8adaa-10b3-4df8-a881-fafc3ab40f55.png)
+
