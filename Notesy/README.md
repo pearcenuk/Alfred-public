@@ -10,7 +10,7 @@ Notesy - New
 https://www.icloud.com/shortcuts/2597022e64704e88b3b93ce53a501e37
 
 Notesy - Append
-https://www.icloud.com/shortcuts/2597022e64704e88b3b93ce53a501e37
+https://www.icloud.com/shortcuts/36dae4e6b2224ab79473540ee75a8a62
 
 Notesy - Search
 https://www.icloud.com/shortcuts/0ab312e654474bb58379a3886850521c
