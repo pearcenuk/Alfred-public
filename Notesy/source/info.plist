@@ -917,7 +917,7 @@ Notesy - New
 https://www.icloud.com/shortcuts/2597022e64704e88b3b93ce53a501e37
 
 Notesy - Append
-https://www.icloud.com/shortcuts/2597022e64704e88b3b93ce53a501e37
+https://www.icloud.com/shortcuts/36dae4e6b2224ab79473540ee75a8a62
 
 Notesy - Search
 https://www.icloud.com/shortcuts/0ab312e654474bb58379a3886850521c
@@ -942,7 +942,6 @@ hotkey: &lt;ctrl+alt+cmd&gt;+n - Appends contents of the latest clipboard entry 
 nctlog &lt;hyper&gt;+c - Appends clipboard text to Daily Note with the time.
 
 nclog &lt;ctrl+alt+cmd&gt;+c - Appends clipboard text to current Daily Note.
-
 
 
 os &lt;text&gt; - Bring Apple Notes to the front and search the text.
@@ -1175,7 +1174,7 @@ With time</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
