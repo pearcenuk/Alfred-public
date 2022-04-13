@@ -7,13 +7,13 @@ Requirements
 Ensure you have Notesy Shortcuts installed in your Mac Shortcuts
 
 Notesy - New
-https://www.icloud.com/shortcuts/2597022e64704e88b3b93ce53a501e37
+https://www.icloud.com/shortcuts/c385d7b006b242afa7b4481baceeb75e
 
 Notesy - Append
-https://www.icloud.com/shortcuts/36dae4e6b2224ab79473540ee75a8a62
+https://www.icloud.com/shortcuts/ac28e5f213a94205a8761718dce96c02
 
 Notesy - Search
-https://www.icloud.com/shortcuts/0ab312e654474bb58379a3886850521c
+https://www.icloud.com/shortcuts/f2e3362100a045a1ab9af9479942b2f7
 
 
 Environment Variables
