@@ -5,6 +5,7 @@ Allows you to log to the end of the current days daily note in Apple Notes
 Requirements
 ------------
 Ensure you have Notesy Shortcuts installed in your Mac Shortcuts
+
 Notesy - New
 https://www.icloud.com/shortcuts/2597022e64704e88b3b93ce53a501e37
 
