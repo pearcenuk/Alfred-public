@@ -28,13 +28,13 @@ ntlog <text> -  Appends entered text to Daily Note with the time.
 
 nlog <text> -  Appends entered text to current Daily Note.
 
-hotkey: <hyper>+n -  Appends contents of the latest clipboard entry to Daily Note with the time.
+hotkey: <shift+ctrl+alt+cmd>+n - Appends currently selected text to Daily Note 
+  
+hotkey: <ctrl+alt+cmd>+n - Appends currently selected text to Daily Note with the timestamp
 
-hotkey: <ctrl+alt+cmd>+n - Appends contents of the latest clipboard entry to Daily Note
-
-nctlog <hyper>+c - Appends clipboard text to Daily Note with the time.
-
-nclog <ctrl+alt+cmd>+c - Appends clipboard text to current Daily Note.
+nclog <shift+ctrl+alt+cmd>+c - Appends clipboard text to current Daily Note.
+  
+nctlog <ctrl+alt+cmd>+c - Appends clipboard text to Daily Note with the timestamp
 
 os <text> - Bring Apple Notes to the front and search the text.
   
