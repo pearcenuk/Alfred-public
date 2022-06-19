@@ -20,16 +20,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>E9EA5B7C-73D8-46C9-A403-9C0350856928</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>0B42CA32-C3D9-4230-9C67-8C41870DC41F</key>
 		<array>
@@ -44,7 +34,20 @@
 				<false/>
 			</dict>
 		</array>
-		<key>2D5B8455-804E-447E-AE36-A4E4F63E4125</key>
+		<key>225B111A-9CDE-4CC8-A8D1-67755743378D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6BEFABD-B305-43A2-B442-1CCE94BD8D7A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2541B8A9-8958-4827-B4F7-E82FD3DCAB61</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -56,9 +59,12 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>2D5B8455-804E-447E-AE36-A4E4F63E4125</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6E9A2498-6F15-4DC6-8D58-5627E919DEFF</string>
+				<string>D6BEFABD-B305-43A2-B442-1CCE94BD8D7A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -85,16 +91,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>E9EA5B7C-73D8-46C9-A403-9C0350856928</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -132,7 +128,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>6F4B2408-540D-4F2C-80DC-4F0637C346F9</string>
+				<string>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -158,7 +154,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6F4B2408-540D-4F2C-80DC-4F0637C346F9</string>
+				<string>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -192,6 +188,9 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>6F4B2408-540D-4F2C-80DC-4F0637C346F9</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>E9EA5B7C-73D8-46C9-A403-9C0350856928</string>
@@ -218,16 +217,6 @@
 		</array>
 		<key>7E3DAA2D-9111-43B6-A95E-D7201896381C</key>
 		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E9EA5B7C-73D8-46C9-A403-9C0350856928</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>92726FF4-17CB-48A1-A771-4D1C7595A8FC</string>
@@ -264,16 +253,6 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>E9EA5B7C-73D8-46C9-A403-9C0350856928</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 		</array>
 		<key>BCFDBECF-C44F-43F5-96F5-185232ED01A8</key>
 		<array>
@@ -288,11 +267,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F4B2408-540D-4F2C-80DC-4F0637C346F9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>D4626CF7-7783-4609-9EAC-F63CDE68F320</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>42DC769B-3CE2-47C1-BED5-7F478850E194</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D6BEFABD-B305-43A2-B442-1CCE94BD8D7A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F4B2408-540D-4F2C-80DC-4F0637C346F9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -328,6 +333,50 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>shortcuts run "Notesy - Search" &lt;&lt;&lt; "${notesydata}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2541B8A9-8958-4827-B4F7-E82FD3DCAB61</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ns</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7E3DAA2D-9111-43B6-A95E-D7201896381C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -337,11 +386,9 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>45</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1966080</integer>
-				<key>hotstring</key>
-				<string>N</string>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -355,6 +402,26 @@
 			<string>0B42CA32-C3D9-4230-9C67-8C41870DC41F</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>92726FF4-17CB-48A1-A771-4D1C7595A8FC</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -381,113 +448,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>nlog</string>
-				<key>subtext</key>
-				<string>olog &lt;words go here&gt;</string>
-				<key>text</key>
-				<string>Log to Obsidian daily note</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>433EE9F8-D508-4E8F-A119-7501B12037C2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>notesydata</key>
-					<string>{time} - {var:notesydata}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>51E0DB57-FC72-4327-8564-52DC7B1E502E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>shortcuts run "Notesy - Append" &lt;&lt;&lt; "${notesydata}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>6F4B2408-540D-4F2C-80DC-4F0637C346F9</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:timeyn}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>y</string>
-						<key>outputlabel</key>
-						<string>print time and data</string>
-						<key>uid</key>
-						<string>CE6A5E17-8DBA-4F9D-98AD-17C40EC1C1B7</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>print data</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.transform</string>
-			<key>uid</key>
-			<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -497,11 +457,9 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>45</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>N</string>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -512,52 +470,9 @@
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>6F4EF0D8-D4B2-4F35-945F-D1098113D2F2</string>
+			<string>225B111A-9CDE-4CC8-A8D1-67755743378D</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>notesydata</key>
-					<string>{query}</string>
-					<key>timeyn</key>
-					<string>y</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>04795E8A-E255-4781-8BDA-D8946C07CD08</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>ntlog</string>
-				<key>subtext</key>
-				<string>olog &lt;words go here&gt;</string>
-				<key>text</key>
-				<string>Log to Obsidian daily note</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>56E61A4D-BA0F-41DA-B368-C7459CC2B154</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -653,56 +568,43 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
+				<key>argumenttype</key>
 				<integer>0</integer>
-				<key>argument</key>
-				<integer>2</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>8</integer>
-				<key>hotmod</key>
-				<integer>1966080</integer>
-				<key>hotstring</key>
-				<string>C</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
+				<key>keyword</key>
+				<string>nlog</string>
+				<key>subtext</key>
+				<string>olog &lt;words go here&gt;</string>
+				<key>text</key>
+				<string>Log to Notes daily note</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</string>
+			<string>433EE9F8-D508-4E8F-A119-7501B12037C2</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>shortcuts run "Notesy - New"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
+				<key>argument</key>
 				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{query}</string>
+				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>6E9A2498-6F15-4DC6-8D58-5627E919DEFF</string>
+			<string>D6BEFABD-B305-43A2-B442-1CCE94BD8D7A</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -722,6 +624,241 @@ fi</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>2D5B8455-804E-447E-AE36-A4E4F63E4125</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6F4EF0D8-D4B2-4F35-945F-D1098113D2F2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>if ! /usr/bin/shortcuts list | grep --quiet 'Notesy - Append'; then
+  /usr/bin/open './Notesy - Append.shortcut'
+  echo 'Missing Notesy - Append Shortcut' &gt;&amp;2
+  exit 1
+fi
+
+shortcuts run "Notesy - Append" &lt;&lt;&lt; "${notesydata}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6F4B2408-540D-4F2C-80DC-4F0637C346F9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{query}</string>
+					<key>timeyn</key>
+					<string>y</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>04795E8A-E255-4781-8BDA-D8946C07CD08</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{time} - {var:notesydata}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>51E0DB57-FC72-4327-8564-52DC7B1E502E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ntlog</string>
+				<key>subtext</key>
+				<string>olog &lt;words go here&gt;</string>
+				<key>text</key>
+				<string>Log to Notes daily note</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>56E61A4D-BA0F-41DA-B368-C7459CC2B154</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:timeyn}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>y</string>
+						<key>outputlabel</key>
+						<string>print time and data</string>
+						<key>uid</key>
+						<string>CE6A5E17-8DBA-4F9D-98AD-17C40EC1C1B7</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>print data</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>- {var:notesydata}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>2</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{clipboard}</string>
+					<key>timeyn</key>
+					<string>n</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -749,72 +886,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>notesydata</key>
-					<string>{clipboard}</string>
-					<key>timeyn</key>
-					<string>n</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>shortcuts run "Notesy - Search" &lt;&lt;&lt; "${notesydata}"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>2541B8A9-8958-4827-B4F7-E82FD3DCAB61</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>ns</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string></string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>7E3DAA2D-9111-43B6-A95E-D7201896381C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -830,26 +901,6 @@ fi</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>D4626CF7-7783-4609-9EAC-F63CDE68F320</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>notesydata</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>92726FF4-17CB-48A1-A771-4D1C7595A8FC</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -887,11 +938,9 @@ fi</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>8</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>C</string>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -913,8 +962,6 @@ fi</string>
 Requirements
 ------------
 Ensure you have Notesy Shortcuts installed in your Mac Shortcuts
-Notesy - New
-https://www.icloud.com/shortcuts/2597022e64704e88b3b93ce53a501e37
 
 Notesy - Append
 https://www.icloud.com/shortcuts/36dae4e6b2224ab79473540ee75a8a62
@@ -935,18 +982,17 @@ ntlog &lt;text&gt; -  Appends entered text to Daily Note with the time.
 
 nlog &lt;text&gt; -  Appends entered text to current Daily Note.
 
-hotkey: &lt;hyper&gt;+n -  Appends contents of the latest clipboard entry to Daily Note with the time.
+ntlog - Appends contents of the latest clipboard entry to Daily Note with the time.
 
-hotkey: &lt;ctrl+alt+cmd&gt;+n - Appends contents of the latest clipboard entry to Daily Note
+nlog - Appends contents of the latest clipboard entry to Daily Note
 
-nctlog &lt;hyper&gt;+c - Appends clipboard text to Daily Note with the time.
+nctlog - Appends clipboard text to Daily Note with the time.
 
-nclog &lt;ctrl+alt+cmd&gt;+c - Appends clipboard text to current Daily Note.
+nclog - Appends clipboard text to current Daily Note.
 
+ns &lt;text&gt; - Bring Apple Notes to the front and search the text.
 
-os &lt;text&gt; - Bring Apple Notes to the front and search the text.
-
-odn Brings Apple Notes to the front and opens Daily Note or creates it if it doesn't exist.</string>
+odn - Brings Apple Notes to the front and opens Daily Note or creates it if it doesn't exist.</string>
 	<key>uidata</key>
 	<dict>
 		<key>04795E8A-E255-4781-8BDA-D8946C07CD08</key>
@@ -955,7 +1001,7 @@ odn Brings Apple Notes to the front and opens Daily Note or creates it if it doe
 			<string>Save input to notesydata variable
 Set flag to print time in note to YES</string>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>245</integer>
 			<key>ypos</key>
 			<integer>465</integer>
 		</dict>
@@ -970,6 +1016,17 @@ Set flag to print time in note to YES</string>
 			<key>ypos</key>
 			<integer>15</integer>
 		</dict>
+		<key>225B111A-9CDE-4CC8-A8D1-67755743378D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Open/Create current daily note</string>
+			<key>xpos</key>
+			<integer>460</integer>
+			<key>ypos</key>
+			<integer>185</integer>
+		</dict>
 		<key>2541B8A9-8958-4827-B4F7-E82FD3DCAB61</key>
 		<dict>
 			<key>colorindex</key>
@@ -977,18 +1034,18 @@ Set flag to print time in note to YES</string>
 			<key>note</key>
 			<string>Run Shortcut Notesy - Search</string>
 			<key>xpos</key>
-			<integer>785</integer>
+			<integer>800</integer>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>15</integer>
 		</dict>
 		<key>2D5B8455-804E-447E-AE36-A4E4F63E4125</key>
 		<dict>
 			<key>note</key>
 			<string>Open Daily Note</string>
 			<key>xpos</key>
-			<integer>555</integer>
+			<integer>460</integer>
 			<key>ypos</key>
-			<integer>840</integer>
+			<integer>335</integer>
 		</dict>
 		<key>3174A7B9-7A5E-494D-A61C-052BEA8FF8C3</key>
 		<dict>
@@ -1007,7 +1064,7 @@ Set flag to print time in note to YES</string>
 			<key>xpos</key>
 			<integer>245</integer>
 			<key>ypos</key>
-			<integer>1055</integer>
+			<integer>1135</integer>
 		</dict>
 		<key>433EE9F8-D508-4E8F-A119-7501B12037C2</key>
 		<dict>
@@ -1017,7 +1074,7 @@ eg: olog words go here</string>
 			<key>xpos</key>
 			<integer>65</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>185</integer>
 		</dict>
 		<key>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</key>
 		<dict>
@@ -1026,9 +1083,9 @@ eg: olog words go here</string>
 
 If flag timeyn set to n then just print the data</string>
 			<key>xpos</key>
-			<integer>530</integer>
+			<integer>515</integer>
 			<key>ypos</key>
-			<integer>335</integer>
+			<integer>640</integer>
 		</dict>
 		<key>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</key>
 		<dict>
@@ -1044,9 +1101,9 @@ If flag timeyn set to n then just print the data</string>
 			<key>note</key>
 			<string>Add time to the front of data</string>
 			<key>xpos</key>
-			<integer>695</integer>
+			<integer>675</integer>
 			<key>ypos</key>
-			<integer>205</integer>
+			<integer>510</integer>
 		</dict>
 		<key>56E61A4D-BA0F-41DA-B368-C7459CC2B154</key>
 		<dict>
@@ -1064,20 +1121,9 @@ eg: ntlog words go here</string>
 			<string>Save input to notesydata variable
 Set flag to print time in note to NO</string>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>245</integer>
 			<key>ypos</key>
-			<integer>135</integer>
-		</dict>
-		<key>6E9A2498-6F15-4DC6-8D58-5627E919DEFF</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>note</key>
-			<string>Run Shortcut Notesy - New</string>
-			<key>xpos</key>
-			<integer>785</integer>
-			<key>ypos</key>
-			<integer>840</integer>
+			<integer>120</integer>
 		</dict>
 		<key>6F4B2408-540D-4F2C-80DC-4F0637C346F9</key>
 		<dict>
@@ -1086,9 +1132,9 @@ Set flag to print time in note to NO</string>
 			<key>note</key>
 			<string>Run Shortcut Notesy - Append</string>
 			<key>xpos</key>
-			<integer>770</integer>
+			<integer>800</integer>
 			<key>ypos</key>
-			<integer>330</integer>
+			<integer>385</integer>
 		</dict>
 		<key>6F4EF0D8-D4B2-4F35-945F-D1098113D2F2</key>
 		<dict>
@@ -1107,9 +1153,9 @@ Set flag to print time in note to NO</string>
 			<string>Search Apple Notes Daily Notes
 os &lt;text&gt;</string>
 			<key>xpos</key>
-			<integer>415</integer>
+			<integer>460</integer>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>15</integer>
 		</dict>
 		<key>92726FF4-17CB-48A1-A771-4D1C7595A8FC</key>
 		<dict>
@@ -1117,9 +1163,9 @@ os &lt;text&gt;</string>
 			<string>Save input to notesydata variable
 Set flag to print time in note to NO</string>
 			<key>xpos</key>
-			<integer>650</integer>
+			<integer>675</integer>
 			<key>ypos</key>
-			<integer>1030</integer>
+			<integer>45</integer>
 		</dict>
 		<key>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</key>
 		<dict>
@@ -1129,16 +1175,25 @@ Set flag to print time in note to NO</string>
 			<key>xpos</key>
 			<integer>245</integer>
 			<key>ypos</key>
-			<integer>895</integer>
+			<integer>830</integer>
 		</dict>
 		<key>BCFDBECF-C44F-43F5-96F5-185232ED01A8</key>
 		<dict>
 			<key>note</key>
 			<string>trim whitespace</string>
 			<key>xpos</key>
-			<integer>455</integer>
+			<integer>440</integer>
 			<key>ypos</key>
-			<integer>345</integer>
+			<integer>650</integer>
+		</dict>
+		<key>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</key>
+		<dict>
+			<key>note</key>
+			<string>Add - to the front of data</string>
+			<key>xpos</key>
+			<integer>760</integer>
+			<key>ypos</key>
+			<integer>665</integer>
 		</dict>
 		<key>D4626CF7-7783-4609-9EAC-F63CDE68F320</key>
 		<dict>
@@ -1150,6 +1205,16 @@ With time</string>
 			<key>ypos</key>
 			<integer>1025</integer>
 		</dict>
+		<key>D6BEFABD-B305-43A2-B442-1CCE94BD8D7A</key>
+		<dict>
+			<key>note</key>
+			<string>Save input to notesydata variable
+Set flag to print time in note to YES</string>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
 		<key>E9EA5B7C-73D8-46C9-A403-9C0350856928</key>
 		<dict>
 			<key>colorindex</key>
@@ -1157,9 +1222,9 @@ With time</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>535</integer>
+			<integer>985</integer>
 			<key>ypos</key>
-			<integer>590</integer>
+			<integer>185</integer>
 		</dict>
 		<key>FDBA3604-D210-4322-B891-C40BB7DCF048</key>
 		<dict>
@@ -1174,7 +1239,7 @@ With time</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.5</string>
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
