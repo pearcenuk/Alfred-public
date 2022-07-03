@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>me.npearce.notesyv5</string>
+	<key>category</key>
+	<string>Neil</string>
+	<key>connections</key>
+	<dict>
+		<key>04795E8A-E255-4781-8BDA-D8946C07CD08</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0B42CA32-C3D9-4230-9C67-8C41870DC41F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>693AD460-73D0-4904-905E-9E01AADC8769</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>225B111A-9CDE-4CC8-A8D1-67755743378D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6BEFABD-B305-43A2-B442-1CCE94BD8D7A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2D5B8455-804E-447E-AE36-A4E4F63E4125</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6BEFABD-B305-43A2-B442-1CCE94BD8D7A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3174A7B9-7A5E-494D-A61C-052BEA8FF8C3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>42DC769B-3CE2-47C1-BED5-7F478850E194</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>433EE9F8-D508-4E8F-A119-7501B12037C2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>693AD460-73D0-4904-905E-9E01AADC8769</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>51E0DB57-FC72-4327-8564-52DC7B1E502E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>CE6A5E17-8DBA-4F9D-98AD-17C40EC1C1B7</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>51E0DB57-FC72-4327-8564-52DC7B1E502E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>56E61A4D-BA0F-41DA-B368-C7459CC2B154</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>04795E8A-E255-4781-8BDA-D8946C07CD08</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>693AD460-73D0-4904-905E-9E01AADC8769</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6AEE0C60-045B-4CB5-9936-79677504A4F9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1E456698-7B68-4E7D-89A7-193B72F8321F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6F4EF0D8-D4B2-4F35-945F-D1098113D2F2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>04795E8A-E255-4781-8BDA-D8946C07CD08</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7E3DAA2D-9111-43B6-A95E-D7201896381C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>92726FF4-17CB-48A1-A771-4D1C7595A8FC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7F28EE1D-916E-49BA-8F94-052D2CC74DA1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1E456698-7B68-4E7D-89A7-193B72F8321F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>92726FF4-17CB-48A1-A771-4D1C7595A8FC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7F28EE1D-916E-49BA-8F94-052D2CC74DA1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BCFDBECF-C44F-43F5-96F5-185232ED01A8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6AEE0C60-045B-4CB5-9936-79677504A4F9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D4626CF7-7783-4609-9EAC-F63CDE68F320</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>42DC769B-3CE2-47C1-BED5-7F478850E194</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D6BEFABD-B305-43A2-B442-1CCE94BD8D7A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6AEE0C60-045B-4CB5-9936-79677504A4F9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FDBA3604-D210-4322-B891-C40BB7DCF048</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>42DC769B-3CE2-47C1-BED5-7F478850E194</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Neil Pearce</string>
+	<key>description</key>
+	<string>Apple Notes daily note logger</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Notesy - V5</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ns</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7E3DAA2D-9111-43B6-A95E-D7201896381C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>0B42CA32-C3D9-4230-9C67-8C41870DC41F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputmode</key>
+				<integer>0</integer>
+				<key>outputmode</key>
+				<integer>0</integer>
+				<key>shortcut</key>
+				<string>Notesy - Search</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.runshortcut</string>
+			<key>uid</key>
+			<string>7F28EE1D-916E-49BA-8F94-052D2CC74DA1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>92726FF4-17CB-48A1-A771-4D1C7595A8FC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{query}</string>
+					<key>timeyn</key>
+					<string>n</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>693AD460-73D0-4904-905E-9E01AADC8769</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist='https://raw.githubusercontent.com/pearcenuk/Alfred-public/main/Notesy/NotesyV5/source/info.plist'
+
+readonly workflow_url='https://raw.githubusercontent.com/pearcenuk/Alfred-public/main/Notesy/NotesyV5/Notesy - V5.alfredworkflow'
+
+readonly download_type='direct'
+readonly frequency_check='4'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local -r notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  local -r terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1E456698-7B68-4E7D-89A7-193B72F8321F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>225B111A-9CDE-4CC8-A8D1-67755743378D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>nlog</string>
+				<key>subtext</key>
+				<string>olog &lt;words go here&gt;</string>
+				<key>text</key>
+				<string>Log to Notes daily note</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>433EE9F8-D508-4E8F-A119-7501B12037C2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D6BEFABD-B305-43A2-B442-1CCE94BD8D7A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>odn</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string></string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2D5B8455-804E-447E-AE36-A4E4F63E4125</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6F4EF0D8-D4B2-4F35-945F-D1098113D2F2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputmode</key>
+				<integer>0</integer>
+				<key>outputmode</key>
+				<integer>0</integer>
+				<key>shortcut</key>
+				<string>Notesy - Append</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.runshortcut</string>
+			<key>uid</key>
+			<string>6AEE0C60-045B-4CB5-9936-79677504A4F9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{query}</string>
+					<key>timeyn</key>
+					<string>y</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>04795E8A-E255-4781-8BDA-D8946C07CD08</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{time} - {var:notesydata}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>51E0DB57-FC72-4327-8564-52DC7B1E502E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ntlog</string>
+				<key>subtext</key>
+				<string>olog &lt;words go here&gt;</string>
+				<key>text</key>
+				<string>Log to Notes daily note</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>56E61A4D-BA0F-41DA-B368-C7459CC2B154</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:timeyn}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>y</string>
+						<key>outputlabel</key>
+						<string>print time and data</string>
+						<key>uid</key>
+						<string>CE6A5E17-8DBA-4F9D-98AD-17C40EC1C1B7</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>print data</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>- {var:notesydata}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>2</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{clipboard}</string>
+					<key>timeyn</key>
+					<string>n</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>nclog</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Log latest clipboard to Notes daily note</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>3174A7B9-7A5E-494D-A61C-052BEA8FF8C3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>nctlog</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Log latest clipboard to Notes daily note</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D4626CF7-7783-4609-9EAC-F63CDE68F320</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>notesydata</key>
+					<string>{clipboard}</string>
+					<key>timeyn</key>
+					<string>y</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>42DC769B-3CE2-47C1-BED5-7F478850E194</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>2</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>FDBA3604-D210-4322-B891-C40BB7DCF048</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Allows you to log to the end of the current days daily note in Apple Notes
+
+Requirements
+------------
+Ensure you have Notesy Shortcuts installed in your Mac Shortcuts
+
+Notesy - Append
+https://www.icloud.com/shortcuts/36dae4e6b2224ab79473540ee75a8a62
+
+Notesy - Search
+https://www.icloud.com/shortcuts/0ab312e654474bb58379a3886850521c
+
+
+Environment Variables
+---------------------
+Update your Notes Folder name in the Notesy Apple Shortcuts
+Follow the comments default is Work.
+
+
+Commands
+--------
+ntlog &lt;text&gt; -  Appends entered text to Daily Note with the time.
+
+nlog &lt;text&gt; -  Appends entered text to current Daily Note.
+
+ntlog - Appends contents of the latest clipboard entry to Daily Note with the time.
+
+nlog - Appends contents of the latest clipboard entry to Daily Note
+
+nctlog - Appends clipboard text to Daily Note with the time.
+
+nclog - Appends clipboard text to current Daily Note.
+
+ns &lt;text&gt; - Bring Apple Notes to the front and search the text.
+
+odn - Brings Apple Notes to the front and opens Daily Note or creates it if it doesn't exist.</string>
+	<key>uidata</key>
+	<dict>
+		<key>04795E8A-E255-4781-8BDA-D8946C07CD08</key>
+		<dict>
+			<key>note</key>
+			<string>Save input to notesydata variable
+Set flag to print time in note to YES</string>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>465</real>
+		</dict>
+		<key>0B42CA32-C3D9-4230-9C67-8C41870DC41F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Log current selection to end of daily Apple Note</string>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>1E456698-7B68-4E7D-89A7-193B72F8321F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<real>980</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>225B111A-9CDE-4CC8-A8D1-67755743378D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Open/Create current daily note</string>
+			<key>xpos</key>
+			<real>460</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>2D5B8455-804E-447E-AE36-A4E4F63E4125</key>
+		<dict>
+			<key>note</key>
+			<string>Open Daily Note</string>
+			<key>xpos</key>
+			<real>460</real>
+			<key>ypos</key>
+			<real>335</real>
+		</dict>
+		<key>3174A7B9-7A5E-494D-A61C-052BEA8FF8C3</key>
+		<dict>
+			<key>note</key>
+			<string>log clipboard contents to Daily Notes note WITHOUT timestamp</string>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>865</real>
+		</dict>
+		<key>42DC769B-3CE2-47C1-BED5-7F478850E194</key>
+		<dict>
+			<key>note</key>
+			<string>Save latest clipboard to notesydata variable
+Set flag to print time in note to YES</string>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>1135</real>
+		</dict>
+		<key>433EE9F8-D508-4E8F-A119-7501B12037C2</key>
+		<dict>
+			<key>note</key>
+			<string>Logs arguments to end of daily log
+eg: olog words go here</string>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</key>
+		<dict>
+			<key>note</key>
+			<string>If flag timeyn set to y then print timestamp before data.
+
+If flag timeyn set to n then just print the data</string>
+			<key>xpos</key>
+			<real>515</real>
+			<key>ypos</key>
+			<real>640</real>
+		</dict>
+		<key>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>735</real>
+		</dict>
+		<key>51E0DB57-FC72-4327-8564-52DC7B1E502E</key>
+		<dict>
+			<key>note</key>
+			<string>Add time to the front of data</string>
+			<key>xpos</key>
+			<real>675</real>
+			<key>ypos</key>
+			<real>510</real>
+		</dict>
+		<key>56E61A4D-BA0F-41DA-B368-C7459CC2B154</key>
+		<dict>
+			<key>note</key>
+			<string>Logs time and arguments to end of daily Apple Note
+eg: ntlog words go here</string>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>510</real>
+		</dict>
+		<key>693AD460-73D0-4904-905E-9E01AADC8769</key>
+		<dict>
+			<key>note</key>
+			<string>Save input to notesydata variable
+Set flag to print time in note to NO</string>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>120</real>
+		</dict>
+		<key>6AEE0C60-045B-4CB5-9936-79677504A4F9</key>
+		<dict>
+			<key>xpos</key>
+			<real>805</real>
+			<key>ypos</key>
+			<real>380</real>
+		</dict>
+		<key>6F4EF0D8-D4B2-4F35-945F-D1098113D2F2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Log time and current selection to end of daily Apple Note</string>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>345</real>
+		</dict>
+		<key>7E3DAA2D-9111-43B6-A95E-D7201896381C</key>
+		<dict>
+			<key>note</key>
+			<string>Search Apple Notes Daily Notes
+os &lt;text&gt;</string>
+			<key>xpos</key>
+			<real>460</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>7F28EE1D-916E-49BA-8F94-052D2CC74DA1</key>
+		<dict>
+			<key>xpos</key>
+			<real>805</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>92726FF4-17CB-48A1-A771-4D1C7595A8FC</key>
+		<dict>
+			<key>note</key>
+			<string>Save input to notesydata variable
+Set flag to print time in note to NO</string>
+			<key>xpos</key>
+			<real>675</real>
+			<key>ypos</key>
+			<real>45</real>
+		</dict>
+		<key>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</key>
+		<dict>
+			<key>note</key>
+			<string>Save latest clipboard to notesydata variable
+Set flag to print time in note to NO</string>
+			<key>xpos</key>
+			<real>245</real>
+			<key>ypos</key>
+			<real>830</real>
+		</dict>
+		<key>BCFDBECF-C44F-43F5-96F5-185232ED01A8</key>
+		<dict>
+			<key>note</key>
+			<string>trim whitespace</string>
+			<key>xpos</key>
+			<real>440</real>
+			<key>ypos</key>
+			<real>650</real>
+		</dict>
+		<key>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</key>
+		<dict>
+			<key>note</key>
+			<string>Add - to the front of data</string>
+			<key>xpos</key>
+			<real>760</real>
+			<key>ypos</key>
+			<real>665</real>
+		</dict>
+		<key>D4626CF7-7783-4609-9EAC-F63CDE68F320</key>
+		<dict>
+			<key>note</key>
+			<string>log clipboard contents to Daily Notes note
+With time</string>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>1025</real>
+		</dict>
+		<key>D6BEFABD-B305-43A2-B442-1CCE94BD8D7A</key>
+		<dict>
+			<key>note</key>
+			<string>Save input to notesydata variable
+Set flag to print time in note to YES</string>
+			<key>xpos</key>
+			<real>660</real>
+			<key>ypos</key>
+			<real>290</real>
+		</dict>
+		<key>FDBA3604-D210-4322-B891-C40BB7DCF048</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>1185</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1</string>
+	<key>webaddress</key>
+	<string>npearce.me</string>
+</dict>
+</plist>
