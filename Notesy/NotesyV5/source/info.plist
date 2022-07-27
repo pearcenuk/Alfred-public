@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>me.npearce.notesyv5</string>
-	<key>category</key>
-	<string>Neil</string>
 	<key>connections</key>
 	<dict>
 		<key>04795E8A-E255-4781-8BDA-D8946C07CD08</key>
@@ -363,9 +361,11 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>45</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>N</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -436,6 +436,27 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>693AD460-73D0-4904-905E-9E01AADC8769</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>nlog</string>
+				<key>subtext</key>
+				<string>olog &lt;words go here&gt;</string>
+				<key>text</key>
+				<string>Log to Notes daily note</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>433EE9F8-D508-4E8F-A119-7501B12037C2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -544,9 +565,11 @@ fi</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>31</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>O</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -560,27 +583,6 @@ fi</string>
 			<string>225B111A-9CDE-4CC8-A8D1-67755743378D</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>nlog</string>
-				<key>subtext</key>
-				<string>olog &lt;words go here&gt;</string>
-				<key>text</key>
-				<string>Log to Notes daily note</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>433EE9F8-D508-4E8F-A119-7501B12037C2</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -635,9 +637,11 @@ fi</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>45</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>N</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -701,7 +705,7 @@ fi</string>
 				<key>variables</key>
 				<dict>
 					<key>notesydata</key>
-					<string>{time} - {var:notesydata}</string>
+					<string>{time} {var:notesydata}</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -781,14 +785,11 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
+				<string>{var:prefix} {var:notesydata}</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
-				<dict>
-					<key>notesydata</key>
-					<string>- {var:notesydata}</string>
-				</dict>
+				<dict/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
@@ -809,9 +810,11 @@ fi</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>8</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>C</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -924,9 +927,11 @@ fi</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>8</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>C</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -943,7 +948,7 @@ fi</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Allows you to log to the end of the current days daily note in Apple Notes
+	<string>Allows you to log to the end of a daily note in Apple Notes Titled with the Current days date in format YYYY-MM-DD
 
 Requirements
 ------------
@@ -960,6 +965,7 @@ Environment Variables
 ---------------------
 Update your Notes Folder name in the Notesy Apple Shortcuts
 Follow the comments default is Work.
+Choose your Prefix for notes in the workflow configuration. default is -
 
 
 Commands
@@ -1026,6 +1032,8 @@ Set flag to print time in note to YES</string>
 		</dict>
 		<key>2D5B8455-804E-447E-AE36-A4E4F63E4125</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>note</key>
 			<string>Open Daily Note</string>
 			<key>xpos</key>
@@ -1035,12 +1043,14 @@ Set flag to print time in note to YES</string>
 		</dict>
 		<key>3174A7B9-7A5E-494D-A61C-052BEA8FF8C3</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>note</key>
 			<string>log clipboard contents to Daily Notes note WITHOUT timestamp</string>
 			<key>xpos</key>
 			<real>65</real>
 			<key>ypos</key>
-			<real>865</real>
+			<real>845</real>
 		</dict>
 		<key>42DC769B-3CE2-47C1-BED5-7F478850E194</key>
 		<dict>
@@ -1054,13 +1064,15 @@ Set flag to print time in note to YES</string>
 		</dict>
 		<key>433EE9F8-D508-4E8F-A119-7501B12037C2</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>note</key>
 			<string>Logs arguments to end of daily log
 eg: olog words go here</string>
 			<key>xpos</key>
 			<real>65</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>170</real>
 		</dict>
 		<key>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</key>
 		<dict>
@@ -1087,12 +1099,14 @@ If flag timeyn set to n then just print the data</string>
 			<key>note</key>
 			<string>Add time to the front of data</string>
 			<key>xpos</key>
-			<real>675</real>
+			<real>655</real>
 			<key>ypos</key>
 			<real>510</real>
 		</dict>
 		<key>56E61A4D-BA0F-41DA-B368-C7459CC2B154</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>note</key>
 			<string>Logs time and arguments to end of daily Apple Note
 eg: ntlog words go here</string>
@@ -1131,6 +1145,8 @@ Set flag to print time in note to NO</string>
 		</dict>
 		<key>7E3DAA2D-9111-43B6-A95E-D7201896381C</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>note</key>
 			<string>Search Apple Notes Daily Notes
 os &lt;text&gt;</string>
@@ -1178,14 +1194,16 @@ Set flag to print time in note to NO</string>
 		<key>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</key>
 		<dict>
 			<key>note</key>
-			<string>Add - to the front of data</string>
+			<string>Add {var:prefix} to the front of data</string>
 			<key>xpos</key>
-			<real>760</real>
+			<real>735</real>
 			<key>ypos</key>
 			<real>665</real>
 		</dict>
 		<key>D4626CF7-7783-4609-9EAC-F63CDE68F320</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
 			<key>note</key>
 			<string>log clipboard contents to Daily Notes note
 With time</string>
@@ -1215,11 +1233,35 @@ Set flag to print time in note to YES</string>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>-</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>This prefix is used to delineate each line in the note.
+EG: -
+- This is a line.</string>
+			<key>label</key>
+			<string>Prefix per line added to note</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>prefix</string>
+		</dict>
+	</array>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1</string>
+	<string>1.5</string>
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
