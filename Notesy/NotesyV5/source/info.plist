@@ -10,7 +10,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
+				<string>DAA188A5-CBBA-48B1-AFEC-648A5CFDCF24</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -75,7 +75,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
+				<string>DAA188A5-CBBA-48B1-AFEC-648A5CFDCF24</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -165,7 +165,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
+				<string>DAA188A5-CBBA-48B1-AFEC-648A5CFDCF24</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -243,20 +243,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>BCFDBECF-C44F-43F5-96F5-185232ED01A8</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</string>
+				<string>DAA188A5-CBBA-48B1-AFEC-648A5CFDCF24</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -296,6 +283,31 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>6AEE0C60-045B-4CB5-9936-79677504A4F9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DAA188A5-CBBA-48B1-AFEC-648A5CFDCF24</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6AEE0C60-045B-4CB5-9936-79677504A4F9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4FA58F61-1996-4CB2-8024-D99E77C57307</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -442,27 +454,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>nlog</string>
-				<key>subtext</key>
-				<string>olog &lt;words go here&gt;</string>
-				<key>text</key>
-				<string>Log to Notes daily note</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>433EE9F8-D508-4E8F-A119-7501B12037C2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -552,6 +543,27 @@ fi</string>
 			<string>1E456698-7B68-4E7D-89A7-193B72F8321F</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>nlog</string>
+				<key>subtext</key>
+				<string>olog &lt;words go here&gt;</string>
+				<key>text</key>
+				<string>Log to Notes daily note</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>433EE9F8-D508-4E8F-A119-7501B12037C2</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -743,6 +755,38 @@ fi</string>
 				<array>
 					<dict>
 						<key>inputstring</key>
+						<string>{var:notesydata}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^$</string>
+						<key>outputlabel</key>
+						<string>EMPTY</string>
+						<key>uid</key>
+						<string>4FA58F61-1996-4CB2-8024-D99E77C57307</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>DATA</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>DAA188A5-CBBA-48B1-AFEC-648A5CFDCF24</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
 						<string>{var:timeyn}</string>
 						<key>matchcasesensitive</key>
 						<false/>
@@ -765,19 +809,6 @@ fi</string>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.transform</string>
-			<key>uid</key>
-			<string>BCFDBECF-C44F-43F5-96F5-185232ED01A8</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1015,9 +1046,9 @@ Set flag to print time in note to YES</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<real>980</real>
+			<real>995</real>
 			<key>ypos</key>
-			<real>185</real>
+			<real>145</real>
 		</dict>
 		<key>225B111A-9CDE-4CC8-A8D1-67755743378D</key>
 		<dict>
@@ -1081,9 +1112,9 @@ eg: olog words go here</string>
 
 If flag timeyn set to n then just print the data</string>
 			<key>xpos</key>
-			<real>515</real>
+			<real>550</real>
 			<key>ypos</key>
-			<real>640</real>
+			<real>535</real>
 		</dict>
 		<key>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</key>
 		<dict>
@@ -1099,9 +1130,9 @@ If flag timeyn set to n then just print the data</string>
 			<key>note</key>
 			<string>Add time to the front of data</string>
 			<key>xpos</key>
-			<real>655</real>
+			<real>715</real>
 			<key>ypos</key>
-			<real>510</real>
+			<real>475</real>
 		</dict>
 		<key>56E61A4D-BA0F-41DA-B368-C7459CC2B154</key>
 		<dict>
@@ -1128,9 +1159,9 @@ Set flag to print time in note to NO</string>
 		<key>6AEE0C60-045B-4CB5-9936-79677504A4F9</key>
 		<dict>
 			<key>xpos</key>
-			<real>805</real>
+			<real>895</real>
 			<key>ypos</key>
-			<real>380</real>
+			<real>345</real>
 		</dict>
 		<key>6F4EF0D8-D4B2-4F35-945F-D1098113D2F2</key>
 		<dict>
@@ -1182,23 +1213,14 @@ Set flag to print time in note to NO</string>
 			<key>ypos</key>
 			<real>830</real>
 		</dict>
-		<key>BCFDBECF-C44F-43F5-96F5-185232ED01A8</key>
-		<dict>
-			<key>note</key>
-			<string>trim whitespace</string>
-			<key>xpos</key>
-			<real>440</real>
-			<key>ypos</key>
-			<real>650</real>
-		</dict>
 		<key>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</key>
 		<dict>
 			<key>note</key>
 			<string>Add {var:prefix} to the front of data</string>
 			<key>xpos</key>
-			<real>735</real>
+			<real>825</real>
 			<key>ypos</key>
-			<real>665</real>
+			<real>560</real>
 		</dict>
 		<key>D4626CF7-7783-4609-9EAC-F63CDE68F320</key>
 		<dict>
@@ -1221,6 +1243,17 @@ Set flag to print time in note to YES</string>
 			<real>660</real>
 			<key>ypos</key>
 			<real>290</real>
+		</dict>
+		<key>DAA188A5-CBBA-48B1-AFEC-648A5CFDCF24</key>
+		<dict>
+			<key>note</key>
+			<string>If {var:notesydata} is empty send an empty string to Notesy shortcut and open the current note anyway.
+
+Else send the data with the prefix.</string>
+			<key>xpos</key>
+			<real>431</real>
+			<key>ypos</key>
+			<real>520</real>
 		</dict>
 		<key>FDBA3604-D210-4322-B891-C40BB7DCF048</key>
 		<dict>
@@ -1261,7 +1294,7 @@ EG: -
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.5</string>
+	<string>1.6</string>
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
