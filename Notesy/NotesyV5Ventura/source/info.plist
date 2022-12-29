@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>me.npearce.notesyv5ventura</string>
-	<key>category</key>
-	<string>Neil</string>
 	<key>connections</key>
 	<dict>
 		<key>04795E8A-E255-4781-8BDA-D8946C07CD08</key>
@@ -26,6 +24,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>693AD460-73D0-4904-905E-9E01AADC8769</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>12E22D97-0A27-4CFF-8C3A-4AEF49AB625E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6AEE0C60-045B-4CB5-9936-79677504A4F9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -112,6 +123,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>438F90A2-6FDE-4EC3-B2E6-C8700F059A83</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>12E22D97-0A27-4CFF-8C3A-4AEF49AB625E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</key>
 		<array>
 			<dict>
@@ -128,7 +152,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</string>
+				<string>438F90A2-6FDE-4EC3-B2E6-C8700F059A83</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -154,7 +178,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</string>
+				<string>438F90A2-6FDE-4EC3-B2E6-C8700F059A83</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -287,19 +311,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>6AEE0C60-045B-4CB5-9936-79677504A4F9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -688,7 +699,7 @@ fi</string>
 				<key>outputmode</key>
 				<integer>0</integer>
 				<key>shortcut</key>
-				<string>Notesy - Append</string>
+				<string>Notesy - Ventura Append</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.automation.runshortcut</string>
@@ -809,19 +820,33 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
+				<string>{var:folder}⌘{var:notesydata}</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
-				<dict>
-					<key>notesydata</key>
-					<string>- {var:notesydata}</string>
-				</dict>
+				<dict/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</string>
+			<string>12E22D97-0A27-4CFF-8C3A-4AEF49AB625E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:prefix} {var:notesydata}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>438F90A2-6FDE-4EC3-B2E6-C8700F059A83</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1100,6 +1125,15 @@ Set flag to print time in note to YES</string>
 			<key>ypos</key>
 			<real>15</real>
 		</dict>
+		<key>12E22D97-0A27-4CFF-8C3A-4AEF49AB625E</key>
+		<dict>
+			<key>note</key>
+			<string>Add {var:folder} to the front of data to determine which Notes folder this will go into</string>
+			<key>xpos</key>
+			<real>900</real>
+			<key>ypos</key>
+			<real>665</real>
+		</dict>
 		<key>225B111A-9CDE-4CC8-A8D1-67755743378D</key>
 		<dict>
 			<key>colorindex</key>
@@ -1159,6 +1193,15 @@ eg: olog words go here</string>
 			<real>65</real>
 			<key>ypos</key>
 			<real>185</real>
+		</dict>
+		<key>438F90A2-6FDE-4EC3-B2E6-C8700F059A83</key>
+		<dict>
+			<key>note</key>
+			<string>Add {var:prefix} to the front of data</string>
+			<key>xpos</key>
+			<real>785</real>
+			<key>ypos</key>
+			<real>665</real>
 		</dict>
 		<key>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</key>
 		<dict>
@@ -1292,15 +1335,6 @@ Set flag to print time in note to NO</string>
 			<key>ypos</key>
 			<real>650</real>
 		</dict>
-		<key>CC2726F6-BA69-4CA1-B88E-6E3E9FD540C1</key>
-		<dict>
-			<key>note</key>
-			<string>Add - to the front of data</string>
-			<key>xpos</key>
-			<real>760</real>
-			<key>ypos</key>
-			<real>665</real>
-		</dict>
 		<key>D4626CF7-7783-4609-9EAC-F63CDE68F320</key>
 		<dict>
 			<key>note</key>
@@ -1348,7 +1382,7 @@ Set flag to print time in note to YES</string>
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>Notesy</string>
+				<string>DailyNotes</string>
 				<key>placeholder</key>
 				<string></string>
 				<key>required</key>
@@ -1363,7 +1397,7 @@ Set flag to print time in note to YES</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
-			<string>NotesyFolder</string>
+			<string>folder</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1386,11 +1420,32 @@ Set flag to print time in note to YES</string>
 			<key>variable</key>
 			<string>NotesyOpen</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>-</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Data Prefix</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>Data_Prefix_in_the_Note</string>
+		</dict>
 	</array>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1</string>
+	<string>1.1</string>
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
