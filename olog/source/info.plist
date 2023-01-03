@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>me.npearce.oblog</string>
 	<key>category</key>
-	<string>Productivity</string>
+	<string>Neil</string>
 	<key>connections</key>
 	<dict>
 		<key>04795E8A-E255-4781-8BDA-D8946C07CD08</key>
@@ -503,9 +503,7 @@ fi</string>
 				<key>autopaste</key>
 				<true/>
 				<key>clipboardtext</key>
-				<string>
-{time}
-{var:datatoobsidian.trim}
+				<string>{time} {var:prefix} {var:datatoobsidian.trim}
 </string>
 				<key>ignoredynamicplaceholders</key>
 				<false/>
@@ -555,12 +553,14 @@ fi</string>
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string>obsidian://advanced-uri?vault={var:vaultname}&amp;daily=true&amp;mode=append</string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -591,6 +591,8 @@ fi</string>
 				</array>
 				<key>elselabel</key>
 				<string>print data</string>
+				<key>hideelse</key>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -661,8 +663,7 @@ fi</string>
 				<key>autopaste</key>
 				<true/>
 				<key>clipboardtext</key>
-				<string>
-{var:datatoobsidian.trim}
+				<string>{var:prefix} {var:datatoobsidian.trim}
 </string>
 				<key>ignoredynamicplaceholders</key>
 				<false/>
@@ -709,11 +710,9 @@ fi</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>8</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1966080</integer>
-				<key>hotstring</key>
-				<string>C</string>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -943,11 +942,9 @@ fi</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>8</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>C</string>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -967,12 +964,14 @@ fi</string>
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string>obsidian://search?vault={var:vaultname}&amp;query={query}</string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -1007,12 +1006,14 @@ fi</string>
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string>obsidian://advanced-uri?vault={var:vaultname}&amp;daily=true</string>
-				<key>utf8</key>
-				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
@@ -1057,8 +1058,6 @@ fi</string>
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1081,13 +1080,15 @@ Requirements
 ------------
 Ensure you have Obsidian Community Plugin Advanced URI enabled.
 
-Environment Variables
+Configuration
 ---------------------
-update your vault name in the environment variable vaultname
+Add your chosen Vault that this workflow will integrate with.
+Decide on a prefix (or none) for your notes. This will get added to the start of each line/block of text appended to the note.
+
 
 Customisations
 ---------------
-The blue Clipboard paste block is how the data and its formatting gets into the Daily Note. Feel free to update it as to how you'd like the data to look.
+The blue Clipboard paste blocks is how the data and its formatting gets into the Daily Note. Feel free to update it as to how you'd like the data to look.
 
 HotKeys
 -------
@@ -1111,7 +1112,6 @@ hotkey: &lt;hyper&gt;+o - Brings Obsidian to the front and appends and starts a 
 
 hotkey: &lt;ctrl+alt+cmd&gt;+o - Brings Obsidian to the front and appends current time and starts a new line with currently selected text
 
-
 os &lt;text&gt; - Bring Obsidian to the front and search the text.
 
 odn or hotkey of your choice - Brings Obsidian to the front and opens Daily Note</string>
@@ -1123,9 +1123,9 @@ odn or hotkey of your choice - Brings Obsidian to the front and opens Daily Note
 			<string>Save input to datatoobsidian variable
 Set flag to print time in note to YES</string>
 			<key>xpos</key>
-			<integer>255</integer>
+			<real>255</real>
 			<key>ypos</key>
-			<integer>630</integer>
+			<real>630</real>
 		</dict>
 		<key>07A6BFAA-7E7F-4B30-8CD4-2B5B05522E6D</key>
 		<dict>
@@ -1135,9 +1135,9 @@ Set flag to print time in note to YES</string>
 			<string>Pastes input data (from var datatoobsidian) after the time on a new line.
 CUSTOMISE THIS TO YOUR HEART'S CONTENT</string>
 			<key>xpos</key>
-			<integer>865</integer>
+			<real>865</real>
 			<key>ypos</key>
-			<integer>705</integer>
+			<real>705</real>
 		</dict>
 		<key>0B42CA32-C3D9-4230-9C67-8C41870DC41F</key>
 		<dict>
@@ -1146,9 +1146,9 @@ CUSTOMISE THIS TO YOUR HEART'S CONTENT</string>
 			<key>note</key>
 			<string>Log current selection to end of daily obsidian note</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>180</integer>
+			<real>180</real>
 		</dict>
 		<key>2D329F93-E64D-4269-BA8D-A976D5FF8B22</key>
 		<dict>
@@ -1157,36 +1157,36 @@ CUSTOMISE THIS TO YOUR HEART'S CONTENT</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>210</integer>
+			<real>210</real>
 			<key>ypos</key>
-			<integer>460</integer>
+			<real>460</real>
 		</dict>
 		<key>3174A7B9-7A5E-494D-A61C-052BEA8FF8C3</key>
 		<dict>
 			<key>note</key>
 			<string>log clipboard contents to Daily obsidian Log WITHOUT timestamp</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>1130</integer>
+			<real>1130</real>
 		</dict>
 		<key>39A9540A-E515-4906-92CD-D36B7673F8ED</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>40</integer>
+			<real>40</real>
 		</dict>
 		<key>3D1C06E9-462E-4F16-BAA4-FECF8A2771D1</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>2</integer>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>855</integer>
+			<real>855</real>
 		</dict>
 		<key>42DC769B-3CE2-47C1-BED5-7F478850E194</key>
 		<dict>
@@ -1194,9 +1194,9 @@ CUSTOMISE THIS TO YOUR HEART'S CONTENT</string>
 			<string>Save latest clipboard to datatoobsidian variable
 Set flag to print time in note to YES</string>
 			<key>xpos</key>
-			<integer>230</integer>
+			<real>230</real>
 			<key>ypos</key>
-			<integer>1320</integer>
+			<real>1320</real>
 		</dict>
 		<key>433EE9F8-D508-4E8F-A119-7501B12037C2</key>
 		<dict>
@@ -1204,9 +1204,9 @@ Set flag to print time in note to YES</string>
 			<string>Logs arguments to end of daily log
 eg: olog words go here</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>345</integer>
+			<real>345</real>
 		</dict>
 		<key>4C5C56C5-D1E4-46FD-A946-D7ACCA046EA3</key>
 		<dict>
@@ -1215,18 +1215,18 @@ eg: olog words go here</string>
 
 If flag timeyn set to n then just print the data</string>
 			<key>xpos</key>
-			<integer>665</integer>
+			<real>665</real>
 			<key>ypos</key>
-			<integer>620</integer>
+			<real>620</real>
 		</dict>
 		<key>4CC4CFAB-B6B5-4037-BBAF-4A0E9574AC77</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<real>1000</real>
 		</dict>
 		<key>56E61A4D-BA0F-41DA-B368-C7459CC2B154</key>
 		<dict>
@@ -1234,9 +1234,9 @@ If flag timeyn set to n then just print the data</string>
 			<string>Logs time and arguments to end of daily log
 eg: otlog words go here</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>675</integer>
+			<real>675</real>
 		</dict>
 		<key>5ADC612D-9ABD-40C7-B6E6-172C755796BA</key>
 		<dict>
@@ -1245,9 +1245,9 @@ eg: otlog words go here</string>
 			<key>note</key>
 			<string>Opens Daily Note</string>
 			<key>xpos</key>
-			<integer>365</integer>
+			<real>365</real>
 			<key>ypos</key>
-			<integer>1765</integer>
+			<real>1765</real>
 		</dict>
 		<key>693AD460-73D0-4904-905E-9E01AADC8769</key>
 		<dict>
@@ -1255,9 +1255,9 @@ eg: otlog words go here</string>
 			<string>Save input to datatoobsidian variable
 Set flag to print time in note to NO</string>
 			<key>xpos</key>
-			<integer>255</integer>
+			<real>255</real>
 			<key>ypos</key>
-			<integer>300</integer>
+			<real>300</real>
 		</dict>
 		<key>6F4EF0D8-D4B2-4F35-945F-D1098113D2F2</key>
 		<dict>
@@ -1266,9 +1266,9 @@ Set flag to print time in note to NO</string>
 			<key>note</key>
 			<string>Log time and current selection to end of daily obsidian note</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>510</integer>
+			<real>510</real>
 		</dict>
 		<key>954CD9F8-5192-4D00-B39E-EAA997067037</key>
 		<dict>
@@ -1277,9 +1277,9 @@ Set flag to print time in note to NO</string>
 			<key>note</key>
 			<string>Choose your hotkey to open the Daily Note</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>1915</integer>
+			<real>1915</real>
 		</dict>
 		<key>A1E1B65A-21A8-41AA-9817-EEF67792FCDD</key>
 		<dict>
@@ -1287,9 +1287,9 @@ Set flag to print time in note to NO</string>
 			<string>Save latest clipboard to datatoobsidian variable
 Set flag to print time in note to NO</string>
 			<key>xpos</key>
-			<integer>230</integer>
+			<real>230</real>
 			<key>ypos</key>
-			<integer>1160</integer>
+			<real>1160</real>
 		</dict>
 		<key>AFA2921C-E9C2-4D77-BD44-C058E7B97AA2</key>
 		<dict>
@@ -1298,9 +1298,9 @@ Set flag to print time in note to NO</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>365</integer>
+			<real>365</real>
 			<key>ypos</key>
-			<integer>1250</integer>
+			<real>1250</real>
 		</dict>
 		<key>BCA369E5-326D-4D5E-8B73-490B7D985114</key>
 		<dict>
@@ -1311,9 +1311,9 @@ Set flag to print time in note to NO</string>
 Sets writing to Append
 Requires Obsidian Advanced URI</string>
 			<key>xpos</key>
-			<integer>415</integer>
+			<real>415</real>
 			<key>ypos</key>
-			<integer>600</integer>
+			<real>600</real>
 		</dict>
 		<key>D4626CF7-7783-4609-9EAC-F63CDE68F320</key>
 		<dict>
@@ -1321,18 +1321,18 @@ Requires Obsidian Advanced URI</string>
 			<string>log clipboard contents to Daily obsidian Log
 With time</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>1290</integer>
+			<real>1290</real>
 		</dict>
 		<key>E18D13C2-FB7D-4757-9E0D-7111D0C03C7B</key>
 		<dict>
 			<key>note</key>
 			<string>Open Daily Note</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>1765</integer>
+			<real>1765</real>
 		</dict>
 		<key>E9C76964-C227-46DD-8B60-1FFC5ECDB9B8</key>
 		<dict>
@@ -1341,9 +1341,9 @@ With time</string>
 			<key>note</key>
 			<string>Opens Obsidian and searches for text</string>
 			<key>xpos</key>
-			<integer>365</integer>
+			<real>365</real>
 			<key>ypos</key>
-			<integer>1600</integer>
+			<real>1600</real>
 		</dict>
 		<key>E9E9008B-952B-4026-8118-E7219CBB341C</key>
 		<dict>
@@ -1353,18 +1353,18 @@ With time</string>
 			<string>Pastes input data (from var datatoobsidian) after the time on a new line.
 CUSTOMISE THIS TO YOUR HEART'S CONTENT</string>
 			<key>xpos</key>
-			<integer>865</integer>
+			<real>865</real>
 			<key>ypos</key>
-			<integer>480</integer>
+			<real>480</real>
 		</dict>
 		<key>EB872D09-74A0-4914-B5CA-CEEF5AD1DB96</key>
 		<dict>
 			<key>note</key>
 			<string>Small delay to allow a new daily note to open before pasting</string>
 			<key>xpos</key>
-			<integer>575</integer>
+			<real>575</real>
 			<key>ypos</key>
-			<integer>630</integer>
+			<real>630</real>
 		</dict>
 		<key>F3953A57-6D14-488A-B575-2DFE910C28EB</key>
 		<dict>
@@ -1372,29 +1372,72 @@ CUSTOMISE THIS TO YOUR HEART'S CONTENT</string>
 			<string>Search Obsidian
 os &lt;text&gt;</string>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>1600</integer>
+			<real>1600</real>
 		</dict>
 		<key>FDBA3604-D210-4322-B891-C40BB7DCF048</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>50</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>1450</integer>
+			<real>1450</real>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<dict>
-		<key>vaultname</key>
-		<string>Work</string>
-	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Vault Name</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>vault</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Will be added to the start of each line or appears between the time and the data: 
+EG: prefix = -
+- pasted data
+12:12:34 - pasted data</string>
+			<key>label</key>
+			<string>Prefix to your Obsidian note</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>prefix</string>
+		</dict>
+	</array>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.6</string>
+	<string>1.8</string>
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
