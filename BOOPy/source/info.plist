@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>me.npearce.boopy</string>
 	<key>category</key>
-	<string>Productivity</string>
+	<string>Neil</string>
 	<key>connections</key>
 	<dict>
 		<key>0CB1AAD6-DE5B-4C25-8520-B06C13DA8F12</key>
@@ -34,19 +34,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>2218D1DA-4947-4DEE-944D-78F22738D7D1</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>0EE1D0A7-C069-4D9F-9675-7D121076901A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>2800B29F-84FF-45E1-A04C-9B549C243B03</key>
 		<array>
 			<dict>
@@ -64,7 +51,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2218D1DA-4947-4DEE-944D-78F22738D7D1</string>
+				<string>8AD99F77-9A78-4649-AD78-703FD7E3D20A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -99,11 +86,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>68B83BBA-CD15-4D58-9984-16C928436985</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>553E77C0-5D96-463A-BB23-1559E8B5DDA3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>85937AF8-3C5D-4EB5-BE0E-6D509B77EE12</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0CB1AAD6-DE5B-4C25-8520-B06C13DA8F12</string>
+				<string>A8D90DD3-8421-4D0C-BA08-66B3A777C257</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8AD99F77-9A78-4649-AD78-703FD7E3D20A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0EE1D0A7-C069-4D9F-9675-7D121076901A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -151,6 +164,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A8D90DD3-8421-4D0C-BA08-66B3A777C257</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0CB1AAD6-DE5B-4C25-8520-B06C13DA8F12</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AF59304E-49CC-47CE-8732-A7DF77F224D3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B4BABCE8-138A-4E7E-AFEF-BB03F06694E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>B89FEFD4-5D43-48A0-8A0E-0358E91142AF</key>
 		<array>
 			<dict>
@@ -168,7 +207,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2B19DE82-C21B-4EC8-ACB5-4A15E4BFC6D7</string>
+				<string>AF59304E-49CC-47CE-8732-A7DF77F224D3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -217,23 +256,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/Boop.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
-			<key>uid</key>
-			<string>8C697305-BB60-4A6D-9081-8663251C2A6C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>count</key>
 				<integer>1</integer>
 				<key>keychar</key>
@@ -255,34 +277,105 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Boop.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>8C697305-BB60-4A6D-9081-8663251C2A6C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
 				<integer>1</integer>
-				<key>fixedorder</key>
-				<false/>
-				<key>items</key>
-				<string>[{"title":"Camelcase","arg":"camel"},{"title":"Uppercase","arg":"upper"},{"title":"Escape Text","arg":"add\tslashes"},{"title":"Remove linebreaks","arg":"Collapse lines"},{"title":"Lowercase","arg":"downcase"},{"title":"Format JSON","arg":"format JSON"}]</string>
-				<key>keyword</key>
-				<string>bp</string>
 				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>
+
+cat &lt;&lt; EOB
+{"items": [
+EOB
+
+for entry in /Applications/Boop.app/Contents/Resources/scripts/*
+do
+	file=${$(basename $entry)%.*}
+    cat &lt;&lt; EOB
+	{
+		"title": "$file",
+		"arg": "$file"
+	},
+EOB
+
+done
+
+
+cat &lt;&lt; EOB
+]}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
 				<string></string>
+				<key>type</key>
+				<integer>11</integer>
 				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>inboundconfig</key>
-			<dict>
-				<key>inputmode</key>
-				<integer>1</integer>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>2218D1DA-4947-4DEE-944D-78F22738D7D1</string>
+			<string>8AD99F77-9A78-4649-AD78-703FD7E3D20A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>command</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0EE1D0A7-C069-4D9F-9675-7D121076901A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -296,28 +389,6 @@
 			<string>alfred.workflow.utility.delay</string>
 			<key>uid</key>
 			<string>EA36E24B-E1EB-4562-B832-B8C47D4A9268</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>command</key>
-					<string>{query}</string>
-					<key>text</key>
-					<string>{clipboard:0}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>0EE1D0A7-C069-4D9F-9675-7D121076901A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -356,6 +427,37 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>11</integer>
+				<key>hotmod</key>
+				<integer>1966080</integer>
+				<key>hotstring</key>
+				<string>B</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>68B83BBA-CD15-4D58-9984-16C928436985</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>acceptsfiles</key>
 				<false/>
 				<key>acceptsmulti</key>
@@ -373,25 +475,6 @@
 			<string>9211A1AB-DDD0-41F0-A6FC-8725E06DB6B8</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{var:command}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>B89FEFD4-5D43-48A0-8A0E-0358E91142AF</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -417,23 +500,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>↩</string>
-				<key>keycode</key>
-				<integer>36</integer>
-				<key>keymod</key>
-				<integer>0</integer>
-				<key>overridewithargument</key>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{var:command}</string>
+				<key>ignoredynamicplaceholders</key>
 				<false/>
+				<key>transient</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>85937AF8-3C5D-4EB5-BE0E-6D509B77EE12</string>
+			<string>B89FEFD4-5D43-48A0-8A0E-0358E91142AF</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -507,6 +588,61 @@
 			<string>alfred.workflow.output.dispatchkeycombo</string>
 			<key>uid</key>
 			<string>0CB1AAD6-DE5B-4C25-8520-B06C13DA8F12</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>⇥</string>
+				<key>keycode</key>
+				<integer>48</integer>
+				<key>keymod</key>
+				<integer>1048576</integer>
+				<key>overridewithargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>AF59304E-49CC-47CE-8732-A7DF77F224D3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>↩</string>
+				<key>keycode</key>
+				<integer>36</integer>
+				<key>keymod</key>
+				<integer>0</integer>
+				<key>overridewithargument</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>85937AF8-3C5D-4EB5-BE0E-6D509B77EE12</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>seconds</key>
+				<string>1</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.delay</string>
+			<key>uid</key>
+			<string>A8D90DD3-8421-4D0C-BA08-66B3A777C257</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -601,11 +737,28 @@ fi</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{clipboard}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>B4BABCE8-138A-4E7E-AFEF-BB03F06694E8</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Run your favourite BOOP (https://github.com/IvanMathy/Boop) scripts from Alfred.
-
-The list is configurable by you in the List Filter so it does not currently have all BOOP scripts just a few to test with.
 
 It isn't very elegant, but it works for me.
 
@@ -619,9 +772,9 @@ Have fun</string>
 			<key>note</key>
 			<string>Select all</string>
 			<key>xpos</key>
-			<integer>375</integer>
+			<real>395</real>
 			<key>ypos</key>
-			<integer>615</integer>
+			<real>720</real>
 		</dict>
 		<key>0EE1D0A7-C069-4D9F-9675-7D121076901A</key>
 		<dict>
@@ -629,20 +782,9 @@ Have fun</string>
 			<string>Save clipboard to text (maybe removed soon)
 Save command from List Filter to command to run in BOOP</string>
 			<key>xpos</key>
-			<integer>265</integer>
+			<real>265</real>
 			<key>ypos</key>
-			<integer>95</integer>
-		</dict>
-		<key>2218D1DA-4947-4DEE-944D-78F22738D7D1</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>note</key>
-			<string>ADD YOUR FAVE BOOP SCRIPTS HERE</string>
-			<key>xpos</key>
-			<integer>90</integer>
-			<key>ypos</key>
-			<integer>65</integer>
+			<real>95</real>
 		</dict>
 		<key>2800B29F-84FF-45E1-A04C-9B549C243B03</key>
 		<dict>
@@ -651,9 +793,9 @@ Save command from List Filter to command to run in BOOP</string>
 			<key>note</key>
 			<string>short delay to make sure BOOP is ready</string>
 			<key>xpos</key>
-			<integer>710</integer>
+			<real>710</real>
 			<key>ypos</key>
-			<integer>255</integer>
+			<real>255</real>
 		</dict>
 		<key>2B19DE82-C21B-4EC8-ACB5-4A15E4BFC6D7</key>
 		<dict>
@@ -662,16 +804,16 @@ Save command from List Filter to command to run in BOOP</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>375</integer>
+			<real>395</real>
 			<key>ypos</key>
-			<integer>790</integer>
+			<real>895</real>
 		</dict>
 		<key>553E77C0-5D96-463A-BB23-1559E8B5DDA3</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<real>230</real>
 			<key>ypos</key>
-			<integer>435</integer>
+			<real>545</real>
 		</dict>
 		<key>588EB07C-FF80-41C5-B102-D27484996D00</key>
 		<dict>
@@ -680,9 +822,9 @@ Save command from List Filter to command to run in BOOP</string>
 			<key>note</key>
 			<string>Clear Boop</string>
 			<key>xpos</key>
-			<integer>550</integer>
+			<real>550</real>
 			<key>ypos</key>
-			<integer>65</integer>
+			<real>65</real>
 		</dict>
 		<key>6433720E-6BAE-4DA0-85D3-443852046E15</key>
 		<dict>
@@ -691,9 +833,18 @@ Save command from List Filter to command to run in BOOP</string>
 			<key>note</key>
 			<string>Copy text to work on into BOOP</string>
 			<key>xpos</key>
-			<integer>550</integer>
+			<real>550</real>
 			<key>ypos</key>
-			<integer>225</integer>
+			<real>225</real>
+		</dict>
+		<key>68B83BBA-CD15-4D58-9984-16C928436985</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>395</real>
 		</dict>
 		<key>85937AF8-3C5D-4EB5-BE0E-6D509B77EE12</key>
 		<dict>
@@ -702,27 +853,34 @@ Save command from List Filter to command to run in BOOP</string>
 			<key>note</key>
 			<string>Run the palette command</string>
 			<key>xpos</key>
-			<integer>815</integer>
+			<real>70</real>
 			<key>ypos</key>
-			<integer>415</integer>
+			<real>745</real>
+		</dict>
+		<key>8AD99F77-9A78-4649-AD78-703FD7E3D20A</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>65</real>
 		</dict>
 		<key>8C697305-BB60-4A6D-9081-8663251C2A6C</key>
 		<dict>
 			<key>note</key>
 			<string>Launch BOOP and bring to front</string>
 			<key>xpos</key>
-			<integer>375</integer>
+			<real>375</real>
 			<key>ypos</key>
-			<integer>65</integer>
+			<real>65</real>
 		</dict>
 		<key>9211A1AB-DDD0-41F0-A6FC-8725E06DB6B8</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>90</integer>
+			<real>50</real>
 			<key>ypos</key>
-			<integer>405</integer>
+			<real>515</real>
 		</dict>
 		<key>9DD94E7E-D2FB-4FB9-92E2-A94DBD9678C3</key>
 		<dict>
@@ -731,9 +889,42 @@ Save command from List Filter to command to run in BOOP</string>
 			<key>note</key>
 			<string>short delay to make sure BOOP is ready</string>
 			<key>xpos</key>
-			<integer>710</integer>
+			<real>730</real>
 			<key>ypos</key>
-			<integer>445</integer>
+			<real>550</real>
+		</dict>
+		<key>A8D90DD3-8421-4D0C-BA08-66B3A777C257</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>short delay to make sure BOOP is ready</string>
+			<key>xpos</key>
+			<real>305</real>
+			<key>ypos</key>
+			<real>750</real>
+		</dict>
+		<key>AF59304E-49CC-47CE-8732-A7DF77F224D3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>Select all</string>
+			<key>xpos</key>
+			<real>750</real>
+			<key>ypos</key>
+			<real>720</real>
+		</dict>
+		<key>B4BABCE8-138A-4E7E-AFEF-BB03F06694E8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Run the command from list filer</string>
+			<key>xpos</key>
+			<real>220</real>
+			<key>ypos</key>
+			<real>895</real>
 		</dict>
 		<key>B89FEFD4-5D43-48A0-8A0E-0358E91142AF</key>
 		<dict>
@@ -742,9 +933,9 @@ Save command from List Filter to command to run in BOOP</string>
 			<key>note</key>
 			<string>Run the command from list filer</string>
 			<key>xpos</key>
-			<integer>550</integer>
+			<real>570</real>
 			<key>ypos</key>
-			<integer>415</integer>
+			<real>520</real>
 		</dict>
 		<key>BFAB59E8-7E31-4F51-BB20-5B44858790F2</key>
 		<dict>
@@ -753,9 +944,9 @@ Save command from List Filter to command to run in BOOP</string>
 			<key>note</key>
 			<string>Copy to Clipboard</string>
 			<key>xpos</key>
-			<integer>550</integer>
+			<real>570</real>
 			<key>ypos</key>
-			<integer>615</integer>
+			<real>720</real>
 		</dict>
 		<key>CF81AEF0-83C9-4E10-A7DE-BAE28D240242</key>
 		<dict>
@@ -764,9 +955,9 @@ Save command from List Filter to command to run in BOOP</string>
 			<key>note</key>
 			<string>Call up palette in BOOP</string>
 			<key>xpos</key>
-			<integer>375</integer>
+			<real>395</real>
 			<key>ypos</key>
-			<integer>415</integer>
+			<real>520</real>
 		</dict>
 		<key>EA36E24B-E1EB-4562-B832-B8C47D4A9268</key>
 		<dict>
@@ -775,15 +966,17 @@ Save command from List Filter to command to run in BOOP</string>
 			<key>note</key>
 			<string>short delay to make sure BOOP is ready</string>
 			<key>xpos</key>
-			<integer>710</integer>
+			<real>710</real>
 			<key>ypos</key>
-			<integer>95</integer>
+			<real>95</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>2.0</string>
 	<key>webaddress</key>
 	<string>npearce.me</string>
 </dict>
